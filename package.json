@@ -1,0 +1,19 @@
+{
+  "name": "to-do-list-api",
+  "version": "1.0.0",
+  "description": "This is the to do list api project in which we create both user and tasks and also be able to update tasks and delete them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "Deepak Goyal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9"
+  }
+}
